@@ -1,4 +1,4 @@
-/* Mapeo Derbis, actividad de certificacion freecodecamp
+/* Union Ordenada, actividad de certificacion freecodecamp
 estilos realizados con bootstrap y logica en JS
 modificado para presentar resultados en documento HTML con respecto a lo solicitado por fcc */
 
