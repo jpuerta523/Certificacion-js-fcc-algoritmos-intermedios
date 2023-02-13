@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/997cfa1cd5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Agentes Binarios</title>
+</head>
+
+<body class="w-auto min-vh-100">
+
+    <!-- cuerpo de la pagina -->
+   <section class="container text-center mx-auto my-5 w-50 min-vh-100" >
+     <h1 class="my-2 mt-1">Agentes Binarios</h1>
+    <p>Devuelve una frase de una cadena binaria pasada.</p>
+    <p class="alert alert-warning">La cadena binaria estará separada por espacios, ejemplo:<br>
+        01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111</p>
+    
+    <!-- campos para ingresos de datos -->
+
+    <div class="input-group">
+        <span class="input-group-text">Ingrese <br>Números<br>Binarios:</span>
+        <textarea class="form-control" 
+        aria-label="Ingrese # Binarios"
+        id="inlet1"
+        rows = 5
+        >
+        </textarea>
+      </div>
+
+        <!-- boton calcular -->
+    <button type="button" class="btn btn-primary my-2 mx-2" id="calculate">Calcular</button>
+    <div class="alert alert-success my-2 d-none"></div>
+    <div class="alert alert-danger my-2 d-none"></div>
+</section> 
+
+<footer class="container text-center p-1  bg-dark text-white  mw-100 mx-0 mb-0 fs-6 h-25 min-vh-25">
+    <p class="m-2 fs-6">Actividad 17: Algoritmos intermedios de JavaScript y Estructuras de Datos: Agentes Binarios</p>
+    <p class="m-2 fs-6">Mira más proyectos de Juan Pablo Puerta en <a href="https://github.com/jpuerta523" target="_blank"><i class="fa-brands fa-github"></i></a> y en <a href="https://www.linkedin.com/in/juan-pablo-puerta-gallego-8622378a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+    <p>No Copyright © -- Febrero 2023</p>
+</footer>
+    
+    <!-- logica agentes binarios -->
+    <script src="app.js"></script>
+</body>
+</html>
