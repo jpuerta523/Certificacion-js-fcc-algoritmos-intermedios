@@ -1,4 +1,5 @@
-
+/* donde estas aprobado FCC
+recibe arreglo de multiples objetos y una propiedad, primero recorre el arreglo original generando un nuevo arreglo con los valores de la propiedad definida en la funcion, luego verifica si los valores son verdaderos boleanos*/
 function truthCheck(collection, pre) {
     return collection
             .map(x => x[pre])
