@@ -20,3 +20,13 @@ function whatIsInAName(collection, source) {
     ],
     { last: "Capulet" }
   );
+
+  console.log(whatIsInAName(
+    [
+      { first: "Romeo", last: "Montague" },
+      { first: "Mercutio", last: null },
+      { first: "Tybalt", last: "Capulet" }
+    ],
+    { last: "Capulet" }
+  ))
+   
